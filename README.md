@@ -47,12 +47,18 @@ Fields include:
 These findings describe only the collected sample and should not be interpreted as rankings of all YouTube music videos.
 
 ## Analysis and Visualizations
-1. Top 10 videos by views
-2. Top 10 channels by combined views
-3. Number of collected videos by publication year
-4. Views versus likes
-5. Views versus like rate
-6. Top channels by combined views and top videos by like rate
+
+### Top 10 Videos by Views
+
+![Top 10 videos by views](images/top_10_videos.png)
+
+### Top 10 Channels by Total Views
+
+![Top 10 channels by total views](images/top_10_channels.png)
+
+### Videos by Publication Year
+
+![Videos by publication year](images/videos_by_year.png)
 
 ## How to Run
 1. Install Python.

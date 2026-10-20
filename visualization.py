@@ -40,6 +40,7 @@ ax.set_xlim(0, top_videos["Views"].max() * 1.18)
 ax.grid(axis="x", linestyle="--", alpha=0.3)
 ax.set_axisbelow(True)
 plt.tight_layout()
+plt.savefig("images/top_10_videos.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -79,6 +80,7 @@ ax.set_xlim(0, top_channels.max() * 1.18)
 ax.grid(axis="x", linestyle="--", alpha=0.3)
 ax.set_axisbelow(True)
 plt.tight_layout()
+plt.savefig("images/top_10_channels.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -133,4 +135,5 @@ ax.set_ylim(bottom=0, top=yearly_videos.max() * 1.15)
 ax.grid(axis="both", linestyle="--", alpha=0.3)
 
 plt.tight_layout()
+plt.savefig("images/videos_by_year.png", dpi=300, bbox_inches="tight")
 plt.show()
